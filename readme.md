@@ -7,7 +7,7 @@
 
 So:
 
-"dotnet test Demo.Test /p:CollectCoverage=true" results in:
+```"dotnet test Demo.Test /p:CollectCoverage=true" results in:
 
 +--------+--------+--------+--------+
 | Module | Line   | Branch | Method |
@@ -27,7 +27,7 @@ So:
 
 "dotnet test Demo2.Test /p:CollectCoverage=true /p:Exclude="[Demo]*"" results in:
 
-+--------+--------+--------+--------+
+```+--------+--------+--------+--------+
 | Module | Line   | Branch | Method |
 +--------+--------+--------+--------+
 | Demo2  | 100%   | 0%     | 100%   |
@@ -50,4 +50,5 @@ What I expected from this last call is the following:
 +--------+--------+--------+--------+
 | Demo2  | 100%   | 0%     | 100%   |
 +--------+--------+--------+--------+
+```
 
