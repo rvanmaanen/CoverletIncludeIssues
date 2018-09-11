@@ -1,0 +1,32 @@
+{
+  "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo.Test\\bin\\Debug\\netcoreapp2.1\\Demo.dll": {
+    "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo\\Class1.cs": {
+      "Demo.Class1": {
+        "System.String Demo.Class1::DoStuff()": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.String Demo.Class1::DoStuff2()": {
+          "Lines": {
+            "11": 1,
+            "12": 1,
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String Demo.Class1::DoStuff3()": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

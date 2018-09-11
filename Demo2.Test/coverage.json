@@ -1,0 +1,49 @@
+{
+  "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo2.Test\\bin\\Debug\\netcoreapp2.1\\Demo.dll": {
+    "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo\\Class1.cs": {
+      "Demo.Class1": {
+        "System.String Demo.Class1::DoStuff()": {
+          "Lines": {
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.String Demo.Class1::DoStuff2()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Demo.Class1::DoStuff3()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo2.Test\\bin\\Debug\\netcoreapp2.1\\Demo2.dll": {
+    "C:\\Projects\\Prive\\CoverletIncludeIssues\\Demo2\\Class1.cs": {
+      "Demo2.Class1": {
+        "System.String Demo2.Class1::DoStuff()": {
+          "Lines": {
+            "8": 1,
+            "9": 1,
+            "11": 1,
+            "12": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
