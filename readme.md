@@ -2,7 +2,7 @@
 
 - Demo (Provides 3 dummy methods returning "Hello, World")
 - Demo.Test (Contains unittests for Demo, resulting in 100% coverage for the Demo project)
-- Demo2 (Provides 1 dummy method returning "Hello, World", appended with the result of 1 of the dummy methods from the Demo project so the endresult is "Hello, World Hello, World". So Demo2 uses Demo1.
+- Demo2 (This project references Demo and provides 1 dummy method returning "Hello, World", appended with the result of 1 of the dummy methods from the Demo project so the endresult is "Hello, World Hello, World")
 - Demo2.Test (Contains unittests for Demo2, resulint in 100% coverage for the Demo2 project and 33% coverage for the Demo project)
 
 So:
@@ -28,7 +28,7 @@ So:
 
 "dotnet test Demo2.Test /p:CollectCoverage=true /p:Exclude="[Demo]*"" results in:
 
-```+--------+--------+--------+--------+
++--------+--------+--------+--------+
 | Module | Line   | Branch | Method |
 +--------+--------+--------+--------+
 | Demo2  | 100%   | 0%     | 100%   |
