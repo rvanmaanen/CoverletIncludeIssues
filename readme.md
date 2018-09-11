@@ -7,7 +7,8 @@
 
 So:
 
-```"dotnet test Demo.Test /p:CollectCoverage=true" results in:
+```
+"dotnet test Demo.Test /p:CollectCoverage=true" results in:
 
 +--------+--------+--------+--------+
 | Module | Line   | Branch | Method |
